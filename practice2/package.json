@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "jest": "^24.7.1"
-  }
+  },
+  "name": "practice2",
+  "version": "1.0.0",
+  "description": "Continuing unit test practice, now with Jest",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "ChilenoSika",
+  "license": "ISC"
 }
