@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react'
 
 const App = () => {
-  
-    return (
-      <div className="App">
-        <h1>Hello World</h1>
-      </div>
-    );
-  
+	const [text, setText] = useState<string | undefined>('potato')
+
+	return (
+		<div className="App">
+			<h1>{text}</h1>
+			<button onClick={() => setText('banana')}>x</button>
+		</div>
+	)
 }
 
-export default App;
+export default App
